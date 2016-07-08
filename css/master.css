@@ -1,0 +1,27 @@
+.button-container .button-line button {
+  display: inline-block;
+  width: 20%;
+  text-align: center;
+  margin: 0px;
+  padding: 0px;
+}
+
+.button-container .button-line button:hover {
+  background-color: #ddd;
+}
+
+.view-container, .input-group {
+  width: 70%;
+}
+
+#bPlus {
+  width: 42%;
+}
+
+#bEquals {
+  width: 43%;
+}
+
+#b0 {
+  width: 43%;
+}

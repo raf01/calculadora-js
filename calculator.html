@@ -3,19 +3,47 @@
 <head>
   <meta charset="UTF-8">
   <title>Calculadora</title>
-  <!-- Latest compiled and minified CSS -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-  <!-- Optional theme -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
-  <!-- Latest compiled and minified JavaScript -->
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="css/master.css" media="screen" title="no title" charset="utf-8">
 </head>
 <body>
   <form class="form" action="index.html" method="post">
-    <div class="input-group">
-    <span class="input-group-addon" id="basic-addon1">@</span>
-    <input type="text" class="form-control" placeholder="Username" aria-describedby="basic-addon1">
-  </div>
+
+      <div class="view-container">
+        <span id="result"></span>
+        <input type="text" class="form-control">
+      </div>
+      <div class="input-group">
+        <div class="button-container">
+          <div class="button-line">
+            <button type="button" class="btn" id="bClear">Clear</button>
+            <button type="button" class="btn" id="bBack">&#9003;</button>
+            <button type="button" class="btn" id="bPlus">+</button>
+          </div>
+          <div class="button-line">
+            <button type="button" class="btn" id="b7">7</button>
+            <button type="button" class="btn" id="b8">8</button>
+            <button type="button" class="btn" id="b9">9</button>
+            <button type="button" class="btn" id="bMinus">-</button>
+          </div>
+          <div class="button-line">
+            <button type="button" class="btn" id="b4">4</button>
+            <button type="button" class="btn" id="b5">5</button>
+            <button type="button" class="btn" id="b6">6</button>
+            <button type="button" class="btn" id="bTimes">&#215;</button>
+          </div>
+          <div class="button-line">
+            <button type="button" class="btn" id="b1">1</button>
+            <button type="button" class="btn" id="b2">2</button>
+            <button type="button" class="btn" id="b3">3</button>
+            <button type="button" class="btn" id="bDivision">&#247;</button>
+          </div>
+          <div class="button-line">
+            <button type="button" class="btn" id="b0">0</button>
+            <button type="button" class="btn" id="bEquals">=</button>
+          </div>
+        </div>
+    </div>
   </form>
+  <script src="js/script.js"></script>
 </body>
 </html>
